@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.6 52.17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2b7dc1;
+        font-family: MLingWaiMedium-TC-B5pc-H, 'LingWai TC';
+        font-size: 48px;
+        letter-spacing: 0em;
+        stroke: #32abe3;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <text class="cls-1" transform="translate(.5 41.49)"><tspan x="0" y="0">G</tspan></text>
+  </g>
+</svg>

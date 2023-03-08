@@ -1,13 +1,13 @@
 
-import Vuetify from 'vuetify/lib'
 import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 import { aliases, mdi } from 'vuetify/iconsets/mdi'
 
+const vuetify = createVuetify({
+	components,
+	directives,
 
-Vuetify.config.silent = true
-
-
-export default createVuetify({
 	icons: {
 		defaultSet: 'mdi',
 		aliases,
@@ -16,3 +16,5 @@ export default createVuetify({
 		}
 	},
 })
+export default vuetify
+
