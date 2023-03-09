@@ -36,7 +36,9 @@ export default {
     ],
     model: 1
   }),
-  setup(props) {}
+  setup(props) {
+	
+  }
 }
 </script>
 

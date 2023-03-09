@@ -1,51 +1,23 @@
 <template>
   <v-app-bar
     app
-    absolute
-    color="#6A76AB"
     dark
+    color="#43a047"
+    absolute
     shrink-on-scroll
     prominent
-    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+    src="../assets/img/banner.jpg"
     fade-img-on-scroll
-    scroll-target="#scrolling-techniques-3"
+    scroll-target="#scrolling-techniques-5"
+    scroll-threshold="500"
   >
-    <!-- <template v-slot:img="{ props }">
-      <v-img
-        v-bind="props"
-        gradient="to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)"
-      ></v-img>
-    </template> -->
-
-    <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-    <v-app-bar-title>Title</v-app-bar-title>
-
-    <v-spacer></v-spacer>
-
-    <v-btn icon>
-      <v-icon>mdi-magnify</v-icon>
-    </v-btn>
-
-    <v-btn icon>
-      <v-icon>mdi-heart</v-icon>
-    </v-btn>
-
-    <v-btn icon>
-      <v-icon>mdi-dots-vertical</v-icon>
-    </v-btn>
-
-    <template v-slot:extension>
-      <v-tabs align-with-title>
-        <v-tab>Tab 1</v-tab>
-        <v-tab>Tab 2</v-tab>
-        <v-tab>Tab 3</v-tab>
-      </v-tabs>
+    <template v-slot:img="{ props }">
+      <v-img v-bind="props" gradient="to top right, rgba(55,236,186,.7), rgba(25,32,72,.7)"></v-img>
     </template>
+
+    <v-app-bar-title>首页</v-app-bar-title>
+
   </v-app-bar>
-  <v-sheet id="scrolling-techniques-3" class="overflow-y-auto" max-height="600">
-    <v-container style="height: 1000px"></v-container>
-  </v-sheet>
 </template>
 
 <script setup></script>
